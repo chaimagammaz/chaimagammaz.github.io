@@ -5,9 +5,11 @@
     margin: 0px;
     text-align: justify;
     box-sizing: border-box;
+    
 }
+
 body{
-    background:#9e763a ;
+    background:#d6a760 ;
 }
 p{
     font-size: 1em;
@@ -17,6 +19,16 @@ p{
 a{
     text-decoration: none;
     color: #9e763a;
+}
+header{
+    width: 100%;
+    padding: 20px 0px;
+    background:   #9e763a;
+    box-shadow: 0px 0px 15px  white;
+}
+header{
+    border-bottom: 2px solid #fff;
+    height: 120px;
 }
 
 
@@ -57,29 +69,23 @@ h2{
     width: 90%;
     color:rgb(95, 57, 13);
 }
-section > div{
-    width: 90%;
-}
 
 
 .photo{
     text-align: center;
 }
-.avatar{
-            
-    height: 240px;
-    width:240px;
-    border-radius: 50%;
-    border:  white 10px ;
-     }
+section > div{
+    width: 90%;
+}
+
 .photo img{
      
-    width: 150px;
-    height: 150px;
+    width: 240px;
+    height: 240px;
     border: 3px solid  white;
     box-shadow: 0px 0px 10px  #9e763a;
     border-radius: 50%;
-    margin-top: -80px;
+    margin-top: -130px;
 }
 .presenter{
     border-bottom: 2px dashed  white;
@@ -148,3 +154,6 @@ section > div{
     border-radius: 5px;
     background-color: #9e763a;
 }
+
+
+
